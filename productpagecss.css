@@ -1,0 +1,159 @@
+/* ///////////////////////////////////////////////////////////////////////// */
+/* ///////////////// PRODUCT PAGE /////////////////*/
+/* ///////////////////////////////////////////////////////////////////////// */
+
+/* ////////////// HEADER //////////// */
+
+.header-nav-listitems-links {
+  color: black;
+}
+
+.header {
+  border-bottom: 5px solid rgb(130, 23, 23);
+}
+
+/* ////////////// MAIN ///////////////// */
+.heading {
+  padding: 25px 80px 40px 80px;
+}
+.main-heading {
+  color: rgb(82, 82, 82);
+  text-align: center;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.lower.heading {
+  color: rgb(82, 82, 82);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* //////////////// .boxwith3containers ////////////////////// */
+
+.boxwith3containers {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.infobox {
+  width: 25%;
+}
+.product-description {
+  width: 50%;
+}
+.call-form {
+  width: 25%;
+}
+
+.infobox {
+  padding: 20px 30px;
+  border: 1.5px solid #ccc;
+}
+
+.infobox-heading {
+  text-decoration: none;
+  font-size: 25px;
+  color: tomato;
+  margin-bottom: 20px;
+}
+
+.infobox-info-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ccc;
+}
+.infobox-info-2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ccc;
+}
+.infobox-info-3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ccc;
+}
+.infobox-info-4 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ccc;
+}
+
+.infobox-images {
+  display: flex;
+  padding-top: 20px;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.infobox-images img {
+  width: 45%;
+}
+
+.infobox-callnow {
+  padding-top: 20px;
+
+  color: #7b7b7b;
+  font-size: 20px;
+}
+
+.infobox-callnow a {
+  color: red;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 500;
+}
+
+/* ////////////// product-description ///////////////// */
+.product-description-images {
+  overflow: hidden;
+}
+
+.product-description {
+  padding: 40px;
+}
+.product-description-text-heading {
+  font-weight: 500;
+  font-size: 26px;
+  color: red;
+}
+
+.product-description-text-paragraph {
+  font-size: 14px;
+}
+
+/* ///////////// call-form /////////// */
+
+.phonenumber {
+  width: 100%;
+  padding-left: 20px;
+  font-size: 25px;
+  color: white;
+  height: 45px;
+  background-color: rgb(209, 5, 5);
+  border-radius: 10px;
+}
+.phonenumber a {
+  text-decoration: none;
+  color: white;
+}
+.call-form-container {
+  margin-top: 25px;
+  border: 1px solid #ccc;
+}
+
+.get-quote {
+  padding: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(3, 3, 170);
+}
+
+.prod-description {
+  padding: 1rem;
+  padding-bottom: 1rem;
+}
